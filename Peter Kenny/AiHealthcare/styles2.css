@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header{
+    background-color: #F1F1F1;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+a {
+    display: block;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: 25%;
+    float: left;
+    text-align: center;
+    }
+a:hover {
+    background-color: white;
+    color: black;
+    }
+#textsection{
+    background-color: #23c004;
+}
+#column {
+    background-color: #23c004;
+    width: 80%;
+    margin: auto;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+#row2 {
+    background-color: #F8F8F8;
+    }
+#picture {
+    width: 50%;
+    margin: auto;
+    }
+img {
+    width: 100%;
+    }

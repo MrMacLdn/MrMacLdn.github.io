@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Exploring the Tech World </title>
+        <link rel="stylesheet" href="cyber-saftey.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="../Homepage/assignmenthomepage.html"><img src="../Homepage/images/white-webpage-logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../Homepage/assignmenthomepage.html">HOME</a></li>
+                        <li><a href="../Page 2/zero-day-exploites.html">ZERO-DAY EXPLOITES</a></li>
+                        <li><a href="../Page 3/cyber-saftey.html">CYBER SAFTEY</a></li>
+                        <li><a href="../Page 4/TP vs. ML .html">MACHIENE LEARNING VS. TRADITIONAL PROGRAMMING</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"> onclick="showMenu()"</i>
+            </nav>
+            <h1> Cyber Safety </h1>
+        </section>
+
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!-------Cyber Saftey Content----->
+            <section class="cyber-saftey"> 
+                <h1> How Can You Stay Cyber Safe? </h1>
+                <p> A simple guide to keep all GlobeTech employees safe.</p>
+
+                <div class="row">
+                    <div class="course-col"> 
+                            <h3> The Importance of Cyber Saftey </h3>
+                            <p> In this day in age, it is important to practise <br> 
+                                cyber hygiene and safe online practises whenever <br>
+                                using the internet. A cyber hygiene routine can <br> 
+                                reduce the chances of security breaches from <br> 
+                                cybercriminals, leading to having information <br>
+                                or data stolen and getting diverse types of <br>
+                                malwares installed onto your computer. </p>
+                    </div>
+                    <div class="course-col"> 
+                            <h3> Risks and Consequences of Cyber Attacks </h3>
+                            <p> Cyber-attacks come in many different shapes and sizes, meaning that it can cause a wide range of harm. One of the most common consequences is economic loss. An example of this could be having your credit card information stolen. On top of that, if you oversee a website, it will cost the company money to get our site and resources fixed and up and running again. A cyber-attack on our company can cause issues such as damaging our reputation and/or damaging the other businesses that rely on us for factors of production. To keep our good reputation and business partners, all employees of GlobeTech Technology must stay vigilant when going online. </p>
+                    </div>
+                    <div class="course-col"> 
+                            <h3> How to Stay Safe Online </h3>
+                            <p> On the bright side of things, there are many methods one can use to stay safe online. The best way to keep your data safe is using strong, difficult, and different passwords for each program. In fact, when Google or Apple gives you the option to save your password, it is best to not do that so no information will be there if you get hacked. However, it is important that you do keep track of your passwords somehow so that you do not forget them. 2-step verification is also a terrific way to keep some of your important accounts safe. While nobody hopes that GlobeTech Technology fall victim to a cyber-attack, it is important to be prepared. As a result, keeping all your important work data backed up is necessary. This way, if something happens, we can immediately resume working at our normal schedule. </p>
+                    </div>
+                </div>
+            </section>
+
+        <section class="footer">
+            <h4> About Us </h4>
+            <p> GlobeTech Technology puts in place new cyber saftey practises every year for our employees, ensuring that our consumers information is safe and secure at all times. <br>
+            If you start getting a lot of spam calls after giving us your phone number . . . its probably not our fault. </p>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+/* Reset default margin and padding for various elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333; /* Change text color to a readable value */
+    margin: 0; /* Remove default body margin */
+}
+
+/* Style the header section */
+header {
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    background-color: #272727; /* Background color for the header */
+}
+
+/* Style the header's h1 element */
+header h1 {
+    font-size: 28px; /* Increase font size for the main header */
+    text-align:left;
+}
+
+
+/* Style the navigation bar */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Adjust alignment to the right */
+    padding: 20px 0;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+
+
+/* Increase the spacing between navigation links */
+nav ul li {
+    margin-right: 10px;
+}
+
+/* Style navigation links */
+nav a {
+    color: #bebebe;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    transition: color 0.2s;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    color: #f5f5f5; /* Change the link color on hover to orange */
+}
+
+/* Style the main content section */
+main {
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    color:#eeeeee
+}
+
+/* Style the main content's h1 element */
+main h1 {
+    font-size: 28px;
+    margin-bottom: 40px; /* Reduce margin for better spacing */
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 15px;
+}
+
+/* Style the left column for text */
+#exploringai {
+    width: 50%;
+    float: left;
+}
+
+#definition{
+    margin-bottom: 40px;
+}
+
+/* Style the right column for images */
+#image-column {
+    width: 50%;
+    float: right;
+}
+
+/* Clear the float after the columns */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #6b6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both; /* Ensure footer clears both floated elements */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #image-column {
+        width: 40%; /* Ensure image takes full width on smaller screens */
+        float: none; /* Remove float for the image */
+    }
+}
+
+/* Style the right column for images */
+#image-column {
+    width: 50%;
+    float: right;
+    text-align: center; /* Center the image horizontally */
+}
+
+/* Adjust the image size */
+#main-image {
+    max-width: 45%; /* Set the maximum width to 100% of its container */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    margin-top: 30px;
+    margin-left: 30px;
+    text-size-adjust: 30p;
+}
+
+#main-image2 {
+    max-width: 45%; /* Set the maximum width to 100% of its container */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    margin-top: 30px;
+    margin-left: 30px;
+    text-size-adjust: 30p;
+}
+
+#image-column {
+    font-size: 80px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Exploring the Tech World </title>
+        <link rel="stylesheet" href="TP vs. ML.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="../../Homepage/homepage.html"><img src="../Homepage/images/white-webpage-logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../../Homepage/homepage.html">HOME</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"> onclick="showMenu()"</i>
+            </nav>
+            <h1> Machine Learning vs. Traditional Programming </h1>
+        </section>
+
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+<!------ ML vs. TP Content ------>
+
+<section class="blog-content"> 
+
+    <div class="row">
+        <div class = "blog-img">
+            <img src="4images/machine-learning-examples-applications.avif" alt="Tech Brain">
+        </div>
+
+        <div class="blog-right">
+            <h3> Important Ethical Considerations </h3>
+            <div>
+                <p> While traditional programming does not have many ethical considerations to keep in mind, machine learning does. People that work or use machine learning in their everyday lives need to be considerate of their practices and collect data in a way that upholds privacy. On top of that, it is important that they design algorithms that are safe and transparent. </p>
+            </div>
+        </div>
+        
+        </div>
+        <div class="blog-left">
+            
+            <h2> What is Machine Learning vs. Traditional Programming? </h2>
+                <p> While machine learning and traditional programming have some things in common, they are also vastly different. Traditional programming is a more manual process, where the programmer creates the program and formulates rules because there is no one (like a machine) programming the logic. On the other hand, machine learning is a type of artificial intelligence. The artificial intelligence develops algorithms by analysing and observing patterns of the datasets and makes predictions on a different, but similar, data type. The most important thing is that it does all of this without being programmed to do these exact things.</p>
+            <h2> What are Some Examples of Each? </h2>
+                <p> Some examples of machine learning are speech recognition, self-driving cars, image recognition, prediction of traffic patterns, and catching email spam. The most used example of traditional programming is fraud detection. The programmer defies a set of rules of what to expect in a fraud then puts these rules into code, therefore creating a program that can identify fraud based on those criteria. </p>
+            <h2> Benefits and Drawbacks </h2>
+                <p> While machine learning is not necessarily a new thing, it has quickly grown in popularity over the past few years because of the advancements with Artificial Intelligence. However, it is also popular because of the many benefits it has. Machine learning has many advantages, such as: It can easily detect trends and patterns, it is continuously improving, there is no human interaction needed since it is all automated, it can be applied to a lot of things, and it can handle multi-dimensional and multi-variety data. However, there are 2 faces to every coin. Some disadvantages it has are: It has a high error susceptibility, it takes lots of time and resources to let the algorithm grow, it needs to train with enormous amounts of good and unbiased data, and it can be hard to interpret the results it puts out. But what about traditional programming, is that any better? Well, the answer is . . . no. Both have their advantages and disadvantages. For example, with traditional programming you have more control, flexibility, and you can deploy it on the app of your choosing. However, it takes a lot more time and skill. </p>
+        </div>
+
+        
+    </div>
+
+</section>
+        <section class="footer">
+            <h4> About Us </h4>
+            <p> GlobeTech Technology uses some machine learning in our programming. Worry not, because we take extra saftey measures to make sure that <br>
+                it does not grow too intelligent. The last thing we want is AI taking over all of our jobs.
+                But that definitely won't happen, so don't worry (we've only laid off 20 people this week). </p>
+        </section>
+    </body>
+</html>

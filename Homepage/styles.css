@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header{
+    background-color: #F1F1F1;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+}
+
+body{
+    background-image: url('images/STA\ Logo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.inner{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+
+ul{
+    font-size: large;
+    margin: auto;
+    clear: both;
+    width: 30%;
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    color: white;
+}

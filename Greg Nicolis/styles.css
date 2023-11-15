@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+#header{background-color: aquamarine;}
+
+h1{text-align: center;
+    padding: 20px;}
+a {
+    display: block;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+a:hover {
+        background-color: white;
+        color: black;
+    }       
+#column {
+        background-color: #42f1a0;
+        border: 2px black solid;
+        width: 33.33%;
+        float: left;
+        color: black;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+#row2 {
+    background-color: #F8F8F8;
+    }
+
+#picture {
+    width: 50%;
+    margin: auto;
+    }
+
+img {
+    width: 100%;
+}
+                            

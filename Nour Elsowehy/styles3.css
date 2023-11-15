@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  
+ }
+
+#header{
+    background-color: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    background-color:  rgb(176, 223, 255);
+    width: 33.33%;
+    padding: 20px; 
+    color: rgb(93, 123, 143);
+    float: left;
+    text-align:center;
+}
+
+a:hover{
+    background-color: white;
+    color: black;      
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+  }
+  
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    }   
+#column {
+    background-color: #89c8e6;
+    border: 2px black solid;
+    color: black;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+#picture{
+    width: 50%;
+    float: left;
+}
+
+img{
+    width: 100%;
+    border: 2px black solid;
+}
+
+#row2{
+    clear: both;
+}

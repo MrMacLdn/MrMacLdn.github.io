@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header{
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+}
+#title{
+    background-color: #0077b6;
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#navBar{
+    top: 0;
+    overflow: hidden;
+    background-color: #033dfc;
+    position: fixed;
+    width: 100%;
+}
+
+head {
+    background-color: blanchedalmond;
+}
+
+body{
+    background-color: #90e0ef;
+}
+
+a{
+    display: block;
+    background-color: #0077b6;
+    color: white;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: darkblue;
+}
+
+#column1 {
+    margin-top: 60px;
+    border: 2px black;
+    color: black;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#column2 {
+    margin-top: 60px;
+    border: 2px black;
+    color: black;
+    float: right;
+    margin-right: 25px;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#subtitle1{
+    margin-top: 400px;
+    margin-left: 550px;
+}
+
+#column3 {
+    margin-top: 70px;
+    border: 2px black;
+    color: black;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#column4 {
+    margin-top: 70px;
+    border: 2px black;
+    color: black;
+    float: right;
+    margin-right: 25px;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#column5 {
+    margin-top: 80px;
+    border: 2px black;
+    color: black;
+    float: left;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-right: 25px;
+}
+
+#column6{
+    margin-top: 60px;
+    border: 2px black;
+    color: black;
+    margin-top: 400px;
+    margin-left: 520px;
+    text-align: center;
+    padding-bottom:25px ;
+    font-size: medium;
+    width: 33.3%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 400px;
+}
+
+#topbutton{
+    margin-top: 25px;
+}

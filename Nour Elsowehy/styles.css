@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  
+ }
+
+#header{
+    background-color: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    background-color:  rgb(176, 223, 255);
+    width: 33.33%;
+    padding: 20px; 
+    color: rgb(93, 123, 143);
+    float: left;
+    text-align:center;
+}
+
+a:hover{
+    background-color: white;
+    color: black;      
+}
+
+#column {
+    background-color: #89c8e6;
+    border: 2px black solid;
+    width: 33.3%;
+    float: left;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#picture{
+    width: 33.33%;
+    float: center;
+}
+
+img{
+    width: 100%;
+    border: 2px black solid;
+}
