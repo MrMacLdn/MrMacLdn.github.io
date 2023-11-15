@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header{
+    background-color: rgb(111, 16, 16);
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    display: block;
+    background-color:black;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+a:hover {
+    background-color: white;
+    color:black;
+}
+
+#column{
+    background-color: #8d8e94;
+    border: 2px black solid;
+    width: 100%;
+    float: left;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
